@@ -389,19 +389,12 @@ while True:
       red = Fore.RED
       print(red + """
  __        ______   _______   _______  
-|  \      /      \ |       \ |       \ 
-| $$     |  $$$$$$\| $$$$$$$\| $$$$$$$\
-| $$     | $$  | $$| $$__| $$| $$  | $$
-| $$     | $$  | $$| $$    $$| $$  | $$
-| $$     | $$  | $$| $$$$$$$\| $$  | $$
-| $$_____| $$__/ $$| $$  | $$| $$__/ $$
-| $$     \\$$    $$| $$  | $$| $$    $$
- \$$$$$$$$ \$$$$$$  \$$   \$$ \$$$$$$$ 
-      """, Fore.LIGHTGREEN_EX + "\n                  ( @H_4_4_4_4_D )",
-      Fore.LIGHTBLUE_EX + "\n   (This tool is programmed by the programmer : HAMA LORDY EZRAILY)              \n",
+
+      """, Fore.LIGHTGREEN_EX + "\n                  ( @tools_vip )",
+      Fore.LIGHTBLUE_EX + "\n   (This tool is programmed by the programmer : tools vip)              \n",
       Fore.LIGHTYELLOW_EX + "                ( Report TikTok )\n\n" + Fore.RESET)
       done +=1
-      print(f'\r[+] REPORTED BY LORD [{done}] | Error Report [{error}]', end='')
+      print(f'\r[+] REPORTED BY tools vip [{done}] | Error Report [{error}]', end='')
       time.sleep(sleep)
     else:
       #clear Text
@@ -409,20 +402,12 @@ while True:
       print(f'[{Fore.LIGHTMAGENTA_EX}Starting{Fore.RESET}]' + Fore.RESET)
       red = Fore.RED
       print(red + """
- __        ______   _______   _______  
-|  \      /      \ |       \ |       \ 
-| $$     |  $$$$$$\| $$$$$$$\| $$$$$$$\
-| $$     | $$  | $$| $$__| $$| $$  | $$
-| $$     | $$  | $$| $$    $$| $$  | $$
-| $$     | $$  | $$| $$$$$$$\| $$  | $$
-| $$_____| $$__/ $$| $$  | $$| $$__/ $$
-| $$     \\$$    $$| $$  | $$| $$    $$
- \$$$$$$$$ \$$$$$$  \$$   \$$ \$$$$$$$ 
-      """, Fore.LIGHTGREEN_EX + "\n                  ( @H_4_4_4_4_D )",
-      Fore.LIGHTBLUE_EX + "\n   (This tool is programmed by the programmer : HAMA LORDY EZRAILY)              \n",
+
+      """, Fore.LIGHTGREEN_EX + "\n                  ( @tools_vip )",
+      Fore.LIGHTBLUE_EX + "\n   (This tool is programmed by the programmer : tools_vip)              \n",
       Fore.RED + "                ( Report TikTok )\n\n" + Fore.RESET)
       print(f'[{Fore.LIGHTMAGENTA_EX}Starting{Fore.RESET}]' + Fore.RESET)
       print('')
       error +=1
-      print(f'\r[+] REPORTED BY LORD [{done}] | Error Report [{error}]', end='')
+      print(f'\r[+] REPORTED BY tools vip [{done}] | Error Report [{error}]', end='')
       time.sleep(sleep)
