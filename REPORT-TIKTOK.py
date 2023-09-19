@@ -12,39 +12,6 @@ os.system('pip install requests')
 os.system('clear')
 
 
-import os,requests,re,time,datetime
-os.system('rm -rf ID-TIKTOK.txt')
-os.system('id -u > ID-TIKTOK.txt')
-uidd = open('ID-TIKTOK.txt', 'r')
-for j in uidd:
-    sp = j.split()
-
-def chk(): 
-  uuid = str(os.geteuid()) + str(os.getlogin()) 
-  id = "|".join(uuid) 
-  print("\n\n\x1b[37;1m  YOUR ID : "+id) 
-  try: 
-    httpCaht = requests.get("https://raw.githubusercontent.com/hamalord4444/report-tiktok/main/ID-TIKTOK.txt").text 
-    if id in httpCaht: 
-      print("\033[92m  YOUR ID IS ACTIVE. .......\033[97m") 
-      msg = str(os.geteuid()) 
-      time.sleep(1) 
-      pass 
-    else: 
-      print("\x1b[91m YOUR ID IS NOT ACTIVE SEND MESSAGE TO MY-TELEGRAM @H_4_4_4_4_D\033[97m") 
-      time.sleep(1) 
-      sys.exit() 
-  except: 
-    sys.exit() 
-    if name == '__main__': 
-     print (logo)
-     chk() 
-    
-chk()
-os.system('clear')
-
-
-
 import os
 os.system('pip install requests')
 os.system('clear')
@@ -55,15 +22,10 @@ os.system('clear')
 
 
 import os,requests,re,time
-from colorama import Fore
-import user_agent
 import subprocess
-import requests, user_agent,os ,sys, time, datetime
+import requests os ,sys, time, datetime
 import requests
-from user_agent import generate_user_agent
 from datetime import datetime
-from colorama import Fore
-import colorama
 colorama.init(autoreset=colorama)
 green = Fore.LIGHTGREEN_EX
 error=0
@@ -239,25 +201,12 @@ print("""
 ██╔══██╗██╔══╝  ██╔═══╝ ██║   ██║██╔══██╗   ██║   
 ██║  ██║███████╗██║     ╚██████╔╝██║  ██║   ██║   
 ╚═╝  ╚═╝╚══════╝╚═╝      ╚═════╝ ╚═╝  ╚═╝   ╚═╝   
-                                                  
-                ██████╗ ██╗   ██╗
-                ██╔══██╗╚██╗ ██╔╝
-                ██████╔╝ ╚████╔╝ 
-                ██╔══██╗  ╚██╔╝  
-                ██████╔╝   ██║   
-                ╚═════╝    ╚═╝   
-                 
-       ██╗      ██████╗ ██████╗ ██████╗ 
-       ██║     ██╔═══██╗██╔══██╗██╔══██╗
-       ██║     ██║   ██║██████╔╝██║  ██║
-       ██║     ██║   ██║██╔══██╗██║  ██║
-       ███████╗╚██████╔╝██║  ██║██████╔╝
-       ╚══════╝ ╚═════╝ ╚═╝  ╚═╝╚═════╝ 
+                                                
                                  
 
       # REPORT TikTok V3
-      * Updated by HAMA LORDY EZRAILY
-      %100 REPORTED BY LORD
+      * Updated by tools vip 
+      %100 REPORTED
 """)
 print("""
         \033[91m[1][None] 
@@ -343,7 +292,7 @@ elif fl==19:
 elif fl==20:
     report_id=3021
 print("---------------------------------------------------------")
-print('Updated By HAMA LORDY EZRAILY ')
+print('Updated Byp
 print("---------------------------------------------------------")
 #sessionid
 sessionid = input('[?] Enter Sessionid : ')
