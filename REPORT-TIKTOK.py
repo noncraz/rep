@@ -21,7 +21,6 @@ os.system('pip install user_agent')
 os.system('clear')
 
 
-import os,requests,re,time
 import subprocess
 import requests os ,sys, time, datetime
 import requests
