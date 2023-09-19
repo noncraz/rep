@@ -22,7 +22,6 @@ os.system('clear')
 
 
 import subprocess
-import requests os ,sys, time, datetime
 import requests
 from datetime import datetime
 colorama.init(autoreset=colorama)
